@@ -12,7 +12,8 @@ PKG_NAME:=openvpn
 PKG_VERSION:=2.3.0
 PKG_RELEASE=1
 
-PKG_SOURCE_URL:=http://swupdate.openvpn.net/community/releases
+#PKG_SOURCE_URL:=http://swupdate.openvpn.net/community/releases
+PKG_SOURCE_URL:=http://swupdate.openvpn.org/community/releases
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)
